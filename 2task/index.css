@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Inter');
+
+* {
+    margin:0px;
+    padding:0px;
+    border:none;
+    outline:none;
+}
+body {
+    color:#E4E5EA;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    background:#0E1014;
+    font-family: "Inter", Arial, Tahoma, sans-serif;
+}
+body, html {
+    overflow-x: hidden;
+}
+.page-wrapper{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.container {
+    width: 1140px;
+    padding: 0 150px;
+}
+header{
+    margin-top: 61px;
+    margin-bottom: 94px;
+}
+footer{
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 165px;
+}
+.logo_text{
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #E4E5EA;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-left: 30px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.first_li{
+    padding-left: 0px;
+}
+.li_show{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color:#E4E5EA;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+span{
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 900;
+    line-height: 24px;
+}
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    width: 275px;
+}
+.menu-important {
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    max-width: 362px;
+}
+.right-side{
+    max-width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+.title-2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.quatro-items{
+    max-width: 362px;
+}
+.top-side{
+    display: flex;
+    margin-bottom: 30px;
+}
+.bottom-side{
+    display: flex;
+    margin-bottom: 61px;
+}
+.subtitle{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+.subtitle-2 {
+    display: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+.text-2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+
+    color: #E4E5EA;
+}
+.chapter-1{
+    text-align: right;
+    max-width: 135px;
+}
+.chapter-2{
+    margin-left: 31px;
+    text-align: right;
+    max-width: 135px;
+}
+.chapter-3{
+    text-align: right;
+    max-width: 135px;
+}
+.chapter-4{
+    margin-left: 31px;
+    text-align: right;
+    max-width: 135px;
+}
+.btn{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 21px 35px;
+    background: #4077F3;
+    color: rgba(228, 229, 234, 1);
+    margin-bottom: 69px;
+}
+.footer-top{
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+    margin-bottom: 20px;
+}
+.about{
+    width: 215px;
+}
+.footer_about{
+    margin-left: -30px;
+}
+.menu{
+
+}
+.footer_menu-2{
+    margin-left: 22px;
+}
+.footer_menu_devider{
+    display: flex;
+    margin-left: -30px;
+}
+.contacts{
+    width: 307px;
+    text-align: right;
+}
+.img_footer{
+    margin-right: 14px;
+}
+.down_footer{
+    background: #1E1E1E;
+    margin-top: 23px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+.text_footer{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* light text */
+
+    color: #E4E5EA;
+}
+.text_footer-2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: right;
+    text-decoration-line: underline;
+
+    /* light text */
+
+    color: #E4E5EA;
+}
+
+.red-light{
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+.purple-light{
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 602px;
+    top: -154px;
+
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+.purple-ball{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 918px;
+    top: -2px;
+
+    filter: blur(5px);
+}
+.red-ball{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 901px;
+    top: 547px;
+    filter: blur(2.5px);
+}
+.red-ball-2{
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 569px;
+    top: 83px;
+}
+@media only screen and (max-width: 320px){
+    body{
+        background: #1E1E1E;
+    }
+    .container{
+        width: 320px;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .container-2{
+        max-width: 272px;
+    }
+    header{
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #1E1E1E;
+    }
+    li{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+
+        /* light text */
+
+        color: #E4E5EA;
+        margin-bottom: 0;
+        padding-left: 16px;
+    }
+    .first_li{
+        padding-left: 16px;
+    }
+    .logo{
+        display: none;
+    }
+    .contact-container{
+        display: none;
+    }
+    .last_li{
+        display: none;
+    }
+    main{
+        display: block;
+        background: radial-gradient(238.53% 189.02% at 3.2% 3.49%, rgba(255, 246, 233, 0.1) 0%, rgba(26, 29, 35, 0.1) 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%);
+        padding-top: 40px;
+        padding-left: 14px;
+    }
+    footer{
+        background: #1E1E1E;
+        position: relative;
+        padding-top: 59px;
+    }
+    h1{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 45px;
+    }
+    .right-side{
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+    .title-2{
+        text-align: left;
+    }
+    .subtitle{
+        display: none;
+    }
+    .subtitle-2{
+        display: flex;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        /* identical to box height */
+
+        letter-spacing: 0.05em;
+    }
+    .text-2{
+        display: none;
+    }
+    .bottom-side{
+
+    }
+    .btn{
+        display: none;
+    }
+    .footer-top{
+        display: block;
+        padding-top: 0;
+        padding-left: 14px;
+    }
+    .footer_about{
+        margin-left: -15px;
+    }
+    .footer_menu_devider{
+        margin-left: -15px;
+    }
+    .about{
+        margin-bottom: 20px;
+    }
+    .menu{
+        margin-bottom: 20px;
+    }
+    .contacts{
+        text-align: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact-2{
+        margin-left: -15px;
+    }
+    .down_footer{
+        text-align: left;
+        justify-content: flex-start;
+        margin-left: 15px;
+        padding-bottom: 60px;
+        margin-top: 50px;
+    }
+    .footer_li{
+        text-transform: none;
+        margin-bottom: 10px;
+        line-height: 17px;
+        font-size: 14px;
+    }
+    .footer_menu-2{
+        margin-right: 13px;
+    }
+    .li_show{
+        display: block;
+    }
+    .li_hidden{
+        display: none;
+    }
+    .red-light{
+        display: none;
+    }
+    .purple-light{
+        display: none;
+    }
+    .purple-ball{
+        display: none;
+    }
+    .red-ball{
+        display: none;
+    }
+    .red-ball-2{
+        display: none;
+    }
+    .svg{
+        padding-top: 8px;
+        padding-right: 5px;
+    }
+    .chapter-2{
+        margin-left: 15px;
+    }
+    .chapter-4{
+        margin-left: 18px;
+        max-width: 141px;
+    }
+    .yellow-light{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -66px;
+        top: 519px;
+
+        background: #FCB045;
+        opacity: 0.4;
+        filter: blur(196px);
+        display: block;
+    }
+    .red-light-2{
+        display: block;
+        position: absolute;
+        width: 211px;
+        height: 210px;
+        left: -55px;
+        top: 241px;
+
+        background: #961A1A;
+        opacity: 0.5;
+        filter: blur(196px);
+    }
+    .purple-light-2{
+        display: block;
+        position: absolute;
+        width: 259px;
+        height: 259px;
+        left: 258px;
+        top: 107px;
+
+        background: #833AB4;
+        opacity: 0.5;
+        filter: blur(196px);
+    }
+    .red-ball-3{
+        display: block;
+        position: absolute;
+        width: 75px;
+        height: 60px;
+        left: 15px;
+        top: 492px;
+    }
+    .purple-ball-2{
+        display: block;
+        position: absolute;
+        width: 64px;
+        height: 102px;
+        left: 265px;
+        top: 273px;
+    }
+}
